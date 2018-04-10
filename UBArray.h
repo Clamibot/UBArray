@@ -29,7 +29,6 @@ private:
 		WCS_Pointer <Node>			pTail;
 		WCS_Pointer <Node>			pCurrent;
 public:
-		enum Exceptions { ArrayEmpty, NoNextElement, NoPrevElement, InvalidIndex };
 		UBArray<DATA, INDEX>()
 		{
 			size = 0;
